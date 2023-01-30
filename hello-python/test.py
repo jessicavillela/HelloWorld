@@ -4,10 +4,10 @@ from ldclient import Context
 from ldclient.config import Config
 
 # Set sdk_key to your LaunchDarkly SDK key before running
-sdk_key = "sdk-117a0a07-64ea-4370-af61-d241082ff6cb"
+sdk_key = "sdk-key"
 
 # Set feature_flag_key to the feature flag key you want to evaluate
-feature_flag_key = "HelloWorld"
+feature_flag_key = "feature-flag-key"
 
 def show_message(s):
   print("*** %s" % s)
